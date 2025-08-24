@@ -1,0 +1,12 @@
+;; disable laptop keyboard to put ergo keyboard on top of it
+;; https://github.com/jtroo/kanata/blob/main/docs/config.adoc#windows-only-windows-interception-keyboard-hwids
+
+
+(deflayer base
+  tab       q    w    e    r    t    y    u    i    o    p    [    ]    \
+  caps      a    s    d    f    g    h    j    k    l    ;    '    ret
+  lsft z    x    c    v    b    bspc n    m    ,    .    /    rsft
+  lctl      lmet lalt           spc            ralt rmet
+)
+
+;; vim: set ft=lisp

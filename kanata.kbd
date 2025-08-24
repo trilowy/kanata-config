@@ -1,4 +1,11 @@
+(defcfg
+  process-unmapped-keys yes
+  windows-interception-keyboard-hwids ("a")
+  windows-interception-keyboard-hwids-exclude ("a")
+)
+
 (include defsrc_pc.kbd)
-(include deflayer_base_anglemod.kbd)  ;; add angle-mod
+(include deflayer_disable_laptop_keyboard.kbd)
+;; (include deflayer_base_anglemod.kbd)  ;; add angle-mod
 
 ;; vim: set ft=lisp
